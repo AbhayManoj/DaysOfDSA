@@ -12,10 +12,6 @@ class Solution
             a[index]=nums[second];
             index++;second++;
         }
-        for(int i=0;i<n;i++)
-        {
-           System.out.println(a[i]);
-        }
         return a;
     }
 }
